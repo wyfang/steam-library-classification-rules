@@ -8,7 +8,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const ACCOUNT_ID = '89582913';
+const ACCOUNT_ID = process.env.STEAM_ACCOUNT_ID || '89582913';
 const STEAM_ROOT = process.env.STEAM_ROOT || '/Users/wangyifang.com/Library/Application Support/Steam';
 const INVENTORY_PATH = process.env.STEAM_INVENTORY_PATH || '/private/tmp/steam-all-overviews.json';
 const CLOUD_PATH = `${STEAM_ROOT}/userdata/${ACCOUNT_ID}/config/cloudstorage/cloud-storage-namespace-1.json`;

@@ -1,0 +1,20 @@
+.DS_Store
+node_modules/
+
+# Personal Steam library exports and generated plans
+steam-all-overviews*.json
+steam-*-metadata*.json
+steamspy-fallback-metadata*.json
+steam-static-classification-plan*.json
+steam-*-appids*.txt
+
+# Steam Cloud configuration and local recovery material
+cloud-storage-namespace-*.json
+collection-backup*/
+*.static-classify.tmp
+*.legacy-cleanup.tmp
+
+# Local diagnostics
+*.log
+*.dmp
+*.mdmp
